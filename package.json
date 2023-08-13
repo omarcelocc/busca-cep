@@ -1,0 +1,32 @@
+{
+  "name": "vue-router",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "test:unit": "vue-cli-service test:unit",
+    "test:watch": "jest --verbose --watch",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fawmi/vue-google-maps": "^0.9.79",
+    "@googlemaps/js-api-loader": "^1.16.2",
+    "vue": "^3.3.4",
+    "vue-google-maps-ui": "^1.0.0",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.9",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/cli-plugin-unit-jest": "~5.0.0",
+    "@vue/test-utils": "^2.0.0-0",
+    "@vue/vue3-jest": "^27.0.0-alpha.1",
+    "babel-jest": "^27.0.6",
+    "eslint": "^8.46.0",
+    "eslint-plugin-vue": "^9.16.1",
+    "jest": "^27.0.5",
+    "vite": "^4.4.5"
+  },
+  "type": "module"
+}
